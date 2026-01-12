@@ -1,6 +1,6 @@
 #!/bin/bash -l
 #
-#SBATCH --workdir=.
+#SBATCH --chdir=.
 #SBATCH --output={log_file}
 #SBATCH --job-name={job_id}
 #SBATCH --cpus-per-task {cores}

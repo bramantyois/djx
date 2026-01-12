@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#SBATCH --workdir=.
+#SBATCH --chdir=.
 #SBATCH --cores={cores}
 #SBATCH --time {hours}:0:0
 #SBATCH --mem {memory}GB
